@@ -1,15 +1,35 @@
 <!doctype html>
-<html lang="pt-BR">
-
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portal IFRO</title>
-</head>
+<html lang="pt-BR">  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portal IFRO</title>
+    <link rel="stylesheet" href="/src/assets/css/index.css">
+    <link rel="stylesheet" href="/src/assets/css/components/header.css">
+    <link rel="stylesheet" href="/src/assets/css/components/footer.css">
+    <link rel="stylesheet" href="/src/assets/css/components/main.css">
+    <link rel="stylesheet" href="/src/assets/css/responsive/mobile.css">
+  </head>
 
 <body>
   <div id="app">
+    <div class="top-bar">
+      <div class="container">
+        <div class="institution-brand">
+          <img src="/src/assets/images/logotipo-ifro.png" alt="IFRO" class="institution-logo">
+          <div class="institution-info">
+            <span class="institution-name">Instituto Federal de Rondônia</span>
+            <span class="ministry">Ministério da Educação</span>
+          </div>
+        </div>
+        <div class="top-links">
+          <a href="#">Portal do Servidor</a>
+          <a href="#">Transparência</a>
+          <a href="#">Ouvidoria</a>
+        </div>
+      </div>
+    </div>
+
     <header>
       <img src="/src/assets/images/burger-menu.svg" alt="Menu" id="botao" class="botao">
       <ul id="menu" class="menu">
@@ -21,6 +41,78 @@
     </header>
 
     <main class="main-content">
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Portal IFRO</h1>
+          <p>Educação, Ciência e Tecnologia para o desenvolvimento de Rondônia</p>
+          <div class="hero-actions">
+            <a href="#" class="btn-primary">Área do Aluno</a>
+            <a href="#" class="btn-secondary">Processos Seletivos</a>
+          </div>
+        </div>
+        <div class="hero-image">
+
+        </div>
+      </section>
+
+      <section class="quick-access">
+        <h2>Acesso Rápido</h2>
+        <div class="access-grid">
+          <a href="#" class="access-card">
+            <div class="card-icon">📚</div>
+            <h3>Cursos</h3>
+            <p>Conheça nossos cursos técnicos e superiores</p>
+          </a>
+          <a href="#" class="access-card">
+            <div class="card-icon">👥</div>
+            <h3>Processos Seletivos</h3>
+            <p>Informações sobre processos seletivos</p>
+          </a>
+          <a href="#" class="access-card">
+            <div class="card-icon">📖</div>
+            <h3>Biblioteca</h3>
+            <p>Acesso ao acervo digital e físico</p>
+          </a>
+          <a href="#" class="access-card">
+            <div class="card-icon">💼</div>
+            <h3>Extensão</h3>
+            <p>Projetos e programas de extensão</p>
+          </a>
+        </div>
+      </section>
+      <section class="highlights">
+        <div class="highlights-content">
+          <div class="highlight-main">
+            <h2>Notícias em Destaque</h2>
+            <article class="featured-news">
+              <img src="/src/assets/images/acesso-a-informacao2.png" alt="Destaque">
+              <div class="news-content">
+                <h3>IFRO abre inscrições para novos cursos</h3>
+                <p>Novas oportunidades de formação profissional e superior estão disponíveis para a comunidade.</p>
+                <a href="#" class="read-more">Leia mais</a>
+              </div>
+            </article>
+          </div>
+          
+          <div class="highlight-sidebar">
+            <h3>Outras Notícias</h3>
+            <div class="news-list">
+              <a href="#" class="news-item">
+                <h4>Resultado do processo seletivo</h4>
+                <span class="news-date">15/12/2024</span>
+              </a>
+              <a href="#" class="news-item">
+                <h4>Feira de ciências e tecnologia</h4>
+                <span class="news-date">10/12/2024</span>
+              </a>
+              <a href="#" class="news-item">
+                <h4>Programas de extensão 2025</h4>
+                <span class="news-date">05/12/2024</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </div>
 
