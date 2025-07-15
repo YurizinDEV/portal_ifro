@@ -26,6 +26,8 @@ header {
     border: none;
     z-index: 1000;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-right: clamp(2rem, 20%, 11.5rem);
+    justify-content: right;
 }
 
 .menu.show {
