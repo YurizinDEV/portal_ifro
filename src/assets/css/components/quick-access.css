@@ -1,0 +1,55 @@
+/* Quick Access */
+.quick-access {
+    padding: 4rem 0;
+    background: white;
+}
+
+.quick-access h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #006837;
+    margin-bottom: 3rem;
+}
+
+.access-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.access-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+    border: 1px solid #f0f0f0;
+}
+
+.access-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.access-card h3 {
+    font-size: 1.3rem;
+    color: #006837;
+    margin-bottom: 0.5rem;
+}
+
+.access-card p {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}

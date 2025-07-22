@@ -1,9 +1,18 @@
 /* Header e Menu */
 header {
     background-color: #00420c;
-    padding: 1rem;
+    padding: 1rem 0;
     position: relative;
     border-bottom: none;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .botao {
@@ -26,8 +35,7 @@ header {
     border: none;
     z-index: 1000;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-right: clamp(2rem, 20%, 11.5rem);
-    justify-content: right;
+    margin-left: auto;
 }
 
 .menu.show {
@@ -36,6 +44,8 @@ header {
 
 .menu li {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 0;
+    padding: 0;
 }
 
 .menu li:last-child {
@@ -49,6 +59,7 @@ header {
     color: #ffffff;
     transition: background-color 0.3s;
     font-weight: 500;
+    margin: 0;
 }
 
 .menu a:hover {
@@ -68,11 +79,14 @@ header {
         border: none;
         background-color: transparent;
         box-shadow: none;
+        margin-left: auto;
+        gap: 2rem; 
     }
 
     .menu li {
         border-bottom: none;
-        margin-left: 2rem;
+        margin: 0;
+        padding: 0;
     }
 
     .menu li:first-child {
@@ -80,9 +94,12 @@ header {
     }
 
     .menu a {
-        padding: 0.5rem 1rem;
+        padding: 0.35rem 0.5rem; 
+        line-height: 2rem; 
         border-radius: 4px;
         font-weight: 500;
+        margin: 0;
+        text-align: center;
     }
 
     .menu a:hover {

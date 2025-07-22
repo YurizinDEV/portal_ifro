@@ -4,3 +4,7 @@
 @import url('./components/footer.css');
 @import url('./responsive/mobile.css');
 @import url('./components/announcements.css');
+@import url('./components/highlights.css');
+@import url('./components/hero.css');
+@import url('./components/quick-access.css');
+@import url('./components/top-bar.css');

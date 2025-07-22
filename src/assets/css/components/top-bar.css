@@ -1,0 +1,64 @@
+/* Top Bar */
+.top-bar {
+    background: #071d41;
+    color: white;
+    padding: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.top-bar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.institution-brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.institution-logo {
+    height: 50px;
+    width: auto;
+}
+
+.institution-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.institution-name {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.ministry {
+    font-size: 0.8rem;
+    opacity: 0.9;
+}
+
+.top-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.top-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.85rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 3px;
+    transition: background 0.2s;
+}
+
+.top-links a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
